@@ -84,12 +84,14 @@ export default function Home() {
             across the region. If you represent a SAR organization and are interested in joint
             training, exercises, or mutual aid agreements, we want to connect.
           </p>
-          <a
-            href="mailto:info@upstatemountainsar.org"
-            className="inline-block mt-5 bg-[#c8102e] hover:bg-[#e8294a] text-white font-bold py-3 px-6 rounded-lg transition-colors"
-          >
-            Email Us to Collaborate
-          </a>
+          <div className="text-center mt-5">
+            <a
+              href="mailto:info@upstatemountainsar.org"
+              className="inline-block bg-[#c8102e] hover:bg-[#e8294a] text-white font-bold py-3 px-6 rounded-lg transition-colors"
+            >
+              Email Us to Collaborate
+            </a>
+          </div>
         </div>
       </section>
 
