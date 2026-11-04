@@ -51,7 +51,7 @@ export default function Home() {
             <strong className="text-white">preventative search and rescue</strong> in the South
             Carolina mountains. We pre-deploy to busy, difficult trailheads to distribute water,
             electrolytes, and food to hikers, and provide direct assistance to anyone who needs
-            support on the trail — before an emergency becomes a rescue.
+            support on the trail, before an emergency becomes a rescue.
           </p>
         </div>
       </section>
@@ -136,7 +136,7 @@ export default function Home() {
           </p>
 
           <div className="fitness-item">
-            <p className="text-white font-semibold mb-1">1. Pack Test — 3 miles / 45 lbs / under 45 min</p>
+            <p className="text-white font-semibold mb-1">1. Pack Test: 3 miles / 45 lbs / under 45 min</p>
             <p className="text-[#bbbbbb] text-sm leading-relaxed">
               USFS standard pack test: 3 miles with a 45 lb. pack in under 45 minutes.
             </p>
@@ -151,7 +151,7 @@ export default function Home() {
           </div>
 
           <div className="fitness-item">
-            <p className="text-white font-semibold mb-1">3. Trap Bar Deadlift — 225 lbs / 1 min / minimum 15 reps</p>
+            <p className="text-white font-semibold mb-1">3. Trap Bar Deadlift: 225 lbs / 1 min / minimum 15 reps</p>
             <p className="text-[#bbbbbb] text-sm leading-relaxed">
               As many reps as possible with good form in 1 minute at 225 pounds. Minimum standard:
               15 reps.
@@ -159,7 +159,7 @@ export default function Home() {
           </div>
 
           <div className="fitness-item">
-            <p className="text-white font-semibold mb-1">4. Burpee Pack Pull-Ups — 10 min / minimum 50 reps</p>
+            <p className="text-white font-semibold mb-1">4. Burpee Pack Pull-Ups: 10 min / minimum 50 reps</p>
             <p className="text-[#bbbbbb] text-sm leading-relaxed">
               As many reps as possible in 10 minutes wearing your SAR pack (~20 lbs.). Minimum
               standard: 50 reps.
@@ -197,7 +197,7 @@ export default function Home() {
           management area (WMA), or land management organization.
         </p>
         <p className="text-[#555555] text-xs mt-6">
-          &copy; 2026 Upstate Mountain SAR &mdash; All rights reserved.
+          &copy; 2026 Upstate Mountain SAR. All rights reserved.
         </p>
       </footer>
     </main>
