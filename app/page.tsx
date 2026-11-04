@@ -36,9 +36,6 @@ export default function Home() {
           A volunteer team ready to go anywhere,<br className="hidden md:block" /> do anything,{" "}
           <span className="text-white font-semibold">for anyone.</span>
         </p>
-        <p className="mt-4 text-[#999999] text-base uppercase tracking-widest font-semibold">
-          South Carolina Mountains
-        </p>
       </section>
 
       {/* ─── MISSION ──────────────────────────────────────────── */}
