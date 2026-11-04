@@ -38,6 +38,11 @@ export default function Home() {
           A volunteer team ready to go anywhere,<br className="hidden md:block" /> do anything,{" "}
           <span className="text-white font-semibold">for anyone.</span>
         </p>
+        <div className="mt-8 px-4 py-3 border border-[rgba(200,16,46,0.4)] bg-[rgba(200,16,46,0.08)] rounded-lg max-w-xl text-center">
+          <p className="text-sm text-[#f0a0a8]">
+            <span className="font-bold text-white">In an emergency, call 911.</span> Do not use email or this site to report an active search and rescue situation.
+          </p>
+        </div>
       </section>
 
       {/* ─── MISSION ──────────────────────────────────────────── */}
