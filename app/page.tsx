@@ -6,6 +6,8 @@ const certs = [
   "Ocean Rescue",
   "SCUBA",
   "Wilderness First Aid",
+  "EMT",
+  "Paramedic",
   "CPR",
   "ICS 100",
   "ICS 200",
