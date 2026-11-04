@@ -102,7 +102,7 @@ export default function Home() {
           <h3 className="text-xl font-bold text-white mb-3">Minimum Requirements</h3>
           <ul className="text-[#cccccc] text-lg space-y-2 list-none">
             <li className="flex items-start gap-2"><span className="text-[#c8102e] font-bold mt-0.5">▸</span>SARTECH II certified</li>
-            <li className="flex items-start gap-2"><span className="text-[#c8102e] font-bold mt-0.5">▸</span>Pass the Team BUSAR fitness test (see below)</li>
+            <li className="flex items-start gap-2"><span className="text-[#c8102e] font-bold mt-0.5">▸</span>Pass the fitness test (see below)</li>
           </ul>
         </div>
 
