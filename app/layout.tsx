@@ -29,6 +29,7 @@ export const metadata: Metadata = {
     images: ["/images/logo.webp"],
   },
   robots: { index: true, follow: true },
+  icons: { icon: "/images/logo.webp", apple: "/images/logo.webp" },
 };
 
 const schema = {
