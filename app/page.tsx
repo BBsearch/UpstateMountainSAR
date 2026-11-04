@@ -127,9 +127,12 @@ export default function Home() {
           </p>
 
           <h3 className="text-lg font-bold text-[#c8102e] uppercase tracking-wide mb-1">
-            Team BUSAR Fitness Test
+            Fitness Test
           </h3>
-          <p className="text-[#999999] text-sm mb-5">All events completed in sequence.</p>
+          <p className="text-[#999999] text-sm mb-5">
+            We adapted our fitness standard from the BUSAR fitness test, originally developed by
+            Team BUSAR out of Tennessee. All events completed in sequence.
+          </p>
 
           <div className="fitness-item">
             <p className="text-white font-semibold mb-1">1. Pack Test — 3 miles / 45 lbs / under 45 min</p>
