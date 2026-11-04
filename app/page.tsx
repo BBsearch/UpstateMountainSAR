@@ -147,18 +147,18 @@ export default function Home() {
           </div>
 
           <div className="fitness-item">
-            <p className="text-white font-semibold mb-1">3. Burpee Pack Pull-Ups — 10 min / minimum 50 reps</p>
+            <p className="text-white font-semibold mb-1">3. Trap Bar Deadlift — 225 lbs / 1 min / minimum 15 reps</p>
             <p className="text-[#bbbbbb] text-sm leading-relaxed">
-              As many reps as possible in 10 minutes wearing your SAR pack (~20 lbs.). Minimum
-              standard: 50 reps.
+              As many reps as possible with good form in 1 minute at 225 pounds. Minimum standard:
+              15 reps.
             </p>
           </div>
 
           <div className="fitness-item">
-            <p className="text-white font-semibold mb-1">4. Trap Bar Deadlift — 225 lbs / 1 min / minimum 15 reps</p>
+            <p className="text-white font-semibold mb-1">4. Burpee Pack Pull-Ups — 10 min / minimum 50 reps</p>
             <p className="text-[#bbbbbb] text-sm leading-relaxed">
-              As many reps as possible with good form in 1 minute at 225 pounds. Minimum standard:
-              15 reps.
+              As many reps as possible in 10 minutes wearing your SAR pack (~20 lbs.). Minimum
+              standard: 50 reps.
             </p>
           </div>
         </div>
