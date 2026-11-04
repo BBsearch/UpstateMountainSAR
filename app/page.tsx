@@ -100,8 +100,17 @@ export default function Home() {
           Join the Team
         </h2>
         <div className="accent-line" />
-        <p className="text-[#cccccc] text-center mt-3 mb-8 text-lg">
-          Interested in serving? Email your resume and certifications to{" "}
+
+        <div className="section-card mt-6 mb-8">
+          <h3 className="text-xl font-bold text-white mb-3">Minimum Requirements</h3>
+          <ul className="text-[#cccccc] text-lg space-y-2 list-none">
+            <li className="flex items-start gap-2"><span className="text-[#c8102e] font-bold mt-0.5">▸</span>SARTECH II certified</li>
+            <li className="flex items-start gap-2"><span className="text-[#c8102e] font-bold mt-0.5">▸</span>Pass the Team BUSAR fitness test (see below)</li>
+          </ul>
+        </div>
+
+        <p className="text-[#cccccc] text-center mb-8 text-lg">
+          Interested candidates should send a resume and certifications to{" "}
           <a
             href="mailto:info@upstatemountainsar.org"
             className="text-[#e8294a] hover:text-white font-semibold transition-colors"
@@ -117,20 +126,28 @@ export default function Home() {
             assessment.
           </p>
 
-          <h3 className="text-lg font-bold text-[#c8102e] uppercase tracking-wide mb-4">
-            Fitness Test
+          <h3 className="text-lg font-bold text-[#c8102e] uppercase tracking-wide mb-1">
+            Team BUSAR Fitness Test
           </h3>
+          <p className="text-[#999999] text-sm mb-5">All events completed in sequence.</p>
 
           <div className="fitness-item">
-            <p className="text-white font-semibold mb-1">Pack Test — 3 miles / 45 lbs / under 45 min</p>
+            <p className="text-white font-semibold mb-1">1. Pack Test — 3 miles / 45 lbs / under 45 min</p>
             <p className="text-[#bbbbbb] text-sm leading-relaxed">
-              USFS standard pack test, followed by an additional 30 minutes going up and over a
-              picnic table with your SAR pack (~20 lbs.) and a 45 lb. kettlebell or dumbbell.
+              USFS standard pack test: 3 miles with a 45 lb. pack in under 45 minutes.
             </p>
           </div>
 
           <div className="fitness-item">
-            <p className="text-white font-semibold mb-1">Burpee Pack Pull-Ups — 10 min / minimum 50 reps</p>
+            <p className="text-white font-semibold mb-1">2. Picnic Table — 30 min continuous</p>
+            <p className="text-[#bbbbbb] text-sm leading-relaxed">
+              Immediately following the pack test: 30 minutes going up and over a picnic table
+              wearing your SAR pack (~20 lbs.) while carrying a 45 lb. kettlebell or dumbbell.
+            </p>
+          </div>
+
+          <div className="fitness-item">
+            <p className="text-white font-semibold mb-1">3. Burpee Pack Pull-Ups — 10 min / minimum 50 reps</p>
             <p className="text-[#bbbbbb] text-sm leading-relaxed">
               As many reps as possible in 10 minutes wearing your SAR pack (~20 lbs.). Minimum
               standard: 50 reps.
@@ -138,7 +155,7 @@ export default function Home() {
           </div>
 
           <div className="fitness-item">
-            <p className="text-white font-semibold mb-1">Trap Bar Deadlift — 225 lbs / 1 min / minimum 15 reps</p>
+            <p className="text-white font-semibold mb-1">4. Trap Bar Deadlift — 225 lbs / 1 min / minimum 15 reps</p>
             <p className="text-[#bbbbbb] text-sm leading-relaxed">
               As many reps as possible with good form in 1 minute at 225 pounds. Minimum standard:
               15 reps.
